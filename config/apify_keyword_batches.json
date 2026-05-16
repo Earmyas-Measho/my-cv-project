@@ -1,0 +1,46 @@
+{
+  "_comment": "Run ONE batch per day (~100 jobs/day limit). Rotate batch_1 -> batch_2 -> ... -> batch_5 weekly.",
+  "locations": [
+    "Frankfurt am Main, Hesse, Germany",
+    "Hanau, Hesse, Germany",
+    "Frankfurt, Germany",
+    "Offenbach am Main, Germany",
+    "Germany"
+  ],
+  "shared_settings": {
+    "maxItems": 100,
+    "experienceLevel": ["Internship", "Entry level", "Associate"],
+    "workType": ["Remote", "Hybrid", "On-site"],
+    "jobType": ["Full-time", "Contract", "Internship"],
+    "postedWithin": "7 days",
+    "scrapeCompanyDetails": true,
+    "scrapeJobDescription": true,
+    "countryCode": "DE"
+  },
+  "batch_1_software_support": [
+    "Python Developer", "Software Developer", "Software Engineer", "Backend Developer",
+    "Junior Developer", "Web Developer", "Django", "REST API",
+    "IT Support", "Technical Support", "Helpdesk", "Service Desk", "Desktop Support",
+    "Support Engineer", "IT Specialist"
+  ],
+  "batch_2_qa_data": [
+    "QA Engineer", "Software Tester", "Test Analyst", "Quality Assurance",
+    "Data Analyst", "Junior Data Analyst", "Business Analyst", "BI Analyst",
+    "Reporting Analyst", "Analytics Associate"
+  ],
+  "batch_3_cloud_customer": [
+    "Customer Success", "Technical Customer Success", "Application Support",
+    "Product Support", "Cloud Support", "Junior DevOps", "System Administrator",
+    "IT Administrator", "Platform Support", "SaaS Support"
+  ],
+  "batch_4_integration_docs": [
+    "Implementation Specialist", "Onboarding Specialist", "Integration Engineer",
+    "Technical Consultant", "Professional Services", "Technical Writer",
+    "Documentation", "Knowledge Base", "IT Trainer", "EdTech"
+  ],
+  "batch_5_stem_advisory": [
+    "ESG Analyst", "Sustainability Analyst", "Energy Analyst", "Climate",
+    "Environmental Data", "Research Assistant", "Project Coordinator",
+    "Multilingual Support", "Technical Project Coordinator", "Operations Analyst"
+  ]
+}

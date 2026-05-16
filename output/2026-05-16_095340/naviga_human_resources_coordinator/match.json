@@ -1,0 +1,31 @@
+{
+  "title": "Human Resources Coordinator",
+  "company": "Naviga",
+  "apply_url": "https://recruit.hirebridge.com/v3/goto/?c=fj73ej",
+  "location": "United States",
+  "match": {
+    "match_score": 30,
+    "recommendation": "skip",
+    "required_met": [
+      "Strong coordination and organizational skills (demonstrated through project work and technical support roles)",
+      "Excellent communication and stakeholder management skills (multilingual, teaching, and customer service experience)",
+      "Ability to work independently in a remote environment (remote training and technical support roles)"
+    ],
+    "required_missing": [
+      "Bachelor\u2019s degree in HR, Business Administration, or a related field (candidate has computer science/engineering coursework but no HR/business degree)",
+      "5+ years of experience in HR operations or HR coordination (candidate has no direct HR experience)",
+      "Prior experience with payroll inputs, benefits administration, and employee lifecycle support",
+      "Exposure to 401(k) administration and vendor coordination",
+      "Familiarity with US employment practices and HR compliance requirements"
+    ],
+    "preferred_met": [],
+    "dealbreakers": [
+      "No direct HR experience (role requires 5+ years in HR operations/coordination)",
+      "Lacks US work authorization (job requires proof of legal authorization to work in the United States)"
+    ],
+    "logistics_ok": false,
+    "logistics_notes": "Candidate is based outside the US and lacks explicit mention of US work authorization, which is a mandatory requirement for this role.",
+    "cultural_fit_summary": "Candidate demonstrates strong communication, problem-solving, and organizational skills, which are transferable. However, the role requires deep HR-specific experience and US compliance knowledge, which the candidate does not possess.",
+    "reasoning": "The candidate\u2019s background is heavily technical (Python development, computer science, and engineering), with no direct HR or US-based HR operations experience. While they have transferable skills like coordination and communication, the role\u2019s core requirements (5+ years in HR, payroll/benefits administration, and US compliance) are unmet. The lack of US work authorization is a dealbreaker."
+  }
+}

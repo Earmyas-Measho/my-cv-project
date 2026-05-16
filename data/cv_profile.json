@@ -1,0 +1,102 @@
+{
+  "candidate": "Earmyas Measho Gebre",
+  "analyzed_at": "2026-05-16",
+  "seniority_level": "Junior to early-mid (1-3 years professional tech; strong academic foundation)",
+  "education_level": "Bachelor-equivalent (199 ECTS Nordic academic record, 182.5 completed)",
+  "visa_work_eligibility": "EU citizen — work authorized in Germany/EU",
+  "location_preferences": ["Germany", "Frankfurt", "Hanau", "Hesse", "Remote EU/Germany"],
+  "technical_skills": {
+    "languages": ["Python", "Java", "SQL", "Dart (Flutter course)"],
+    "frameworks": ["Django", "Flutter", "REST APIs"],
+    "databases": ["SQL", "relational DB design", "data modeling"],
+    "domains": ["Web development", "Cybersecurity fundamentals", "Machine learning (coursework)", "Environmental/energy systems"],
+    "tools": ["Git (implied projects)", "UML", "Agile/project coursework"],
+    "cloud": ["Cloud computing concepts (coursework) — limited production cloud ops experience"]
+  },
+  "soft_skills": [
+    "Technical communication",
+    "Customer-facing support",
+    "Problem diagnosis",
+    "Multilingual communication",
+    "Documentation",
+    "Team collaboration",
+    "Teaching/mentoring (TA role)",
+    "Cross-cultural advisory work"
+  ],
+  "responsibilities_history": [
+    "Django web application development",
+    "RESTful API design and optimization",
+    "Secure backend and database integration",
+    "Machine learning for data analysis (training)",
+    "Enterprise hardware/software technical support (Dell)",
+    "Diagnostics and repair coordination",
+    "Refugee integration advisory and translation",
+    "Official documentation assistance",
+    "Classroom support in mathematics and science",
+    "Hospitality front desk and translation"
+  ],
+  "industries": [
+    "EdTech / vocational training",
+    "Enterprise IT hardware",
+    "BPO / customer support",
+    "Non-profit / refugee services",
+    "Education",
+    "Hospitality"
+  ],
+  "transferable_skills": [
+    "Support → IT Service Desk / Application Support",
+    "Python/Django → Junior backend or full-stack",
+    "SQL/DB coursework → Data analyst or junior DBA path",
+    "Security coursework → Security-aware developer or junior IT security",
+    "Math/CS → QA, test automation, data analyst",
+    "Multilingual → EU customer success, technical account support",
+    "Advisory/documentation → Customer success, implementation specialist"
+  ],
+  "certifications_training": [
+    "Lexicon Group Python Developer training (project-based, 2024-2026)",
+    "Linnaeus University CS courses (85 ECTS)",
+    "Computer Security course",
+    "Database Technology course",
+    "Verified Nordic academic credentials (Vitnemålsportalen, Lexicon diploma links)"
+  ],
+  "strengths": [
+    "Strong formal CS + math foundation (136+ ECTS CS+math)",
+    "Award-winning Dell technical support",
+    "Hands-on Django/REST portfolio trajectory",
+    "Verified academic credentials",
+    "Fluent English + Norwegian + additional languages",
+    "EU work eligibility for Germany"
+  ],
+  "gaps": [
+    "Limited paid production software engineering tenure (training project primary)",
+    "No listed AWS/Azure/GCP certifications",
+    "No professional QA/automation framework experience listed",
+    "System admin: academic exposure only, no long-term SysAdmin role",
+    "German language not listed on CV (English/Norwegian strong)",
+    "Located Sweden-based on CV — targeting Germany roles"
+  ],
+  "qualified_role_families": [
+    "Junior Python / Backend Developer",
+    "Junior Full-Stack Developer (Django)",
+    "IT Support / Technical Support Engineer",
+    "Service Desk Analyst",
+    "Customer Success (technical SaaS)",
+    "Application Support Analyst",
+    "Junior QA / Software Tester",
+    "Junior Data Analyst",
+    "Cloud Support Associate",
+    "Junior System Administrator",
+    "Integration / Implementation Coordinator",
+    "Technical Writer / Documentation",
+    "ESG / Sustainability / Energy Analyst (junior)",
+    "Technical Project Coordinator",
+    "API Support Engineer",
+    "EdTech Support",
+    "Multilingual IT Support",
+    "Research Assistant STEM",
+    "IT Trainer / Training Specialist",
+    "NGO Program / Documentation Coordinator"
+  ],
+  "matching_mode": "requirements_based_not_title",
+  "qualifications_file": "data/qualifications.json"
+}

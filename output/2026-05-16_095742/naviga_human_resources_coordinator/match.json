@@ -1,0 +1,30 @@
+{
+  "title": "Human Resources Coordinator",
+  "company": "Naviga",
+  "apply_url": "https://recruit.hirebridge.com/v3/goto/?c=fj73ej",
+  "location": "United States",
+  "match": {
+    "match_score": 30,
+    "recommendation": "skip",
+    "required_met": [
+      "Strong coordination and organizational skills (demonstrated through project courses and technical support roles)",
+      "Excellent communication and stakeholder management skills (multilingual, customer service awards, translation/advocacy work)",
+      "Ability to work independently in a remote environment (remote training and technical support experience)"
+    ],
+    "required_missing": [
+      "Bachelor\u2019s degree in HR, Business Administration, or a related field (candidate has computer science/engineering coursework but no HR/business degree)",
+      "5+ years of experience in HR operations or HR coordination (candidate has no HR-specific experience; technical and support roles are not directly transferable)",
+      "Prior experience with payroll inputs, benefits administration, and employee lifecycle support (no evidence of HR process experience)",
+      "Familiarity with US employment practices and HR compliance requirements (candidate lacks US-specific HR knowledge)"
+    ],
+    "preferred_met": [],
+    "dealbreakers": [
+      "No legal authorization to work in the United States (candidate is based in Sweden/Netherlands/Norway and lacks US work authorization)",
+      "No HR-specific experience (required 5+ years not met; technical roles do not substitute for HR operations)"
+    ],
+    "logistics_ok": false,
+    "logistics_notes": "Candidate is not authorized to work in the US and has no indication of relocation or visa sponsorship eligibility.",
+    "cultural_fit_summary": "Candidate demonstrates strong communication, problem-solving, and organizational skills, but these are not directly applicable to HR coordination without domain-specific experience. Cultural fit is neutral given the lack of HR context.",
+    "reasoning": "The role requires specialized HR operations experience and US work authorization, both of which the candidate lacks. While transferable skills like coordination and communication exist, they do not compensate for the absence of HR domain knowledge or compliance familiarity. The logistics mismatch (US work authorization) is a dealbreaker."
+  }
+}

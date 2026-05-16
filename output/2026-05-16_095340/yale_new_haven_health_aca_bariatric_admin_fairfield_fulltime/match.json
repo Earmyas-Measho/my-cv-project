@@ -1,0 +1,28 @@
+{
+  "title": "ACA - Bariatric Admin Fairfield- FullTime",
+  "company": "Yale New Haven Health",
+  "apply_url": "https://jobs.ynhhs.org/jobs/87766?lang=en-us&iis=job+board&iisn=linkedin",
+  "location": "Fairfield, CT",
+  "match": {
+    "match_score": 30,
+    "recommendation": "skip",
+    "required_met": [
+      "High school diploma or GED (implied by Nordic academic record and professional experience)"
+    ],
+    "required_missing": [
+      "Graduation from an approved, accredited postsecondary medical assisting program, Nursing Assistant Program, or Patient Care Associate Training",
+      "12-18 months of experience as a Medical Assistant, Nursing Assistant, or Patient Care Associate",
+      "Clinical competency in patient-centered care (e.g., vital signs, phlebotomy, EKG, specimen collection)"
+    ],
+    "preferred_met": [],
+    "dealbreakers": [
+      "Lacks required medical/clinical training or certification for the role",
+      "No direct experience in a healthcare or outpatient clinical setting",
+      "Role requires on-site presence in Fairfield, CT (candidate is based in Sweden)"
+    ],
+    "logistics_ok": false,
+    "logistics_notes": "Candidate is located in Sweden; role requires on-site presence in Fairfield, CT, USA. No indication of work authorization or relocation plans.",
+    "cultural_fit_summary": "Candidate demonstrates strong communication skills, teamwork, and a service-oriented mindset (e.g., awards at Dell, refugee support roles). However, these skills are not aligned with the clinical and administrative demands of this healthcare role.",
+    "reasoning": "The candidate's background is heavily focused on software development, computer science, and technical support, with no evidence of medical training, clinical experience, or certification required for this role. The role demands specific healthcare competencies (e.g., patient care, medical assisting) and on-site presence in the U.S., neither of which are met. Transferable skills like communication and teamwork are insufficient to bridge the gap."
+  }
+}

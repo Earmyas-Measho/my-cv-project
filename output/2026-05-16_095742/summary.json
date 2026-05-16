@@ -1,0 +1,32 @@
+[
+  {
+    "score": 70,
+    "recommendation": "review",
+    "company": "AMOpportunities",
+    "title": "Program Enrollment Associate"
+  },
+  {
+    "score": 20,
+    "recommendation": "skip",
+    "company": "The Walt Disney Studios",
+    "title": "Senior Publicist/Photo Editor"
+  },
+  {
+    "score": 30,
+    "recommendation": "skip",
+    "company": "Yale New Haven Health",
+    "title": "ACA - Bariatric Admin Fairfield- FullTime"
+  },
+  {
+    "score": 30,
+    "recommendation": "skip",
+    "company": "Naviga",
+    "title": "Human Resources Coordinator"
+  },
+  {
+    "score": 70,
+    "recommendation": "review",
+    "company": "Ellucian",
+    "title": "Customer Success Manager | Remote"
+  }
+]

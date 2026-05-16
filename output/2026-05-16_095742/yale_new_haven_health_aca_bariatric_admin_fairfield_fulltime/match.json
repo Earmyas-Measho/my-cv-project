@@ -1,0 +1,28 @@
+{
+  "title": "ACA - Bariatric Admin Fairfield- FullTime",
+  "company": "Yale New Haven Health",
+  "apply_url": "https://jobs.ynhhs.org/jobs/87766?lang=en-us&iis=job+board&iisn=linkedin",
+  "location": "Fairfield, CT",
+  "match": {
+    "match_score": 30,
+    "recommendation": "skip",
+    "required_met": [
+      "High school diploma or GED (implied by Nordic academic record)"
+    ],
+    "required_missing": [
+      "Graduation from an approved, accredited postsecondary medical assisting program, Nursing Assistant Program, or Patient Care Associate Training",
+      "12-18 months of experience as a Medical Assistant, Nursing Assistant, or Patient Care Associate",
+      "Clinical competency in patient-centered care (e.g., vital signs, phlebotomy, EKG, etc.)"
+    ],
+    "preferred_met": [],
+    "dealbreakers": [
+      "No relevant clinical or medical assisting experience",
+      "No certification or licensure recognized by the Connecticut Department of Public Health",
+      "Role requires on-site presence in Fairfield, CT (candidate is based in Sweden with no indication of relocation willingness or work authorization in the U.S.)"
+    ],
+    "logistics_ok": false,
+    "logistics_notes": "Candidate is based in Sweden with no indication of U.S. work authorization or relocation plans. Role is on-site in Fairfield, CT.",
+    "cultural_fit_summary": "Candidate demonstrates strong communication skills, teamwork, and a service-oriented mindset, which aligns with the organization's values. However, the role requires specific clinical and administrative competencies not reflected in the candidate's background.",
+    "reasoning": "The candidate's background is heavily focused on software development, computer science, and technical support, with no direct experience in medical assisting, patient care, or clinical environments. The role requires specific clinical competencies, certifications, and experience that the candidate lacks. Additionally, the on-site requirement in the U.S. presents a logistical dealbreaker."
+  }
+}

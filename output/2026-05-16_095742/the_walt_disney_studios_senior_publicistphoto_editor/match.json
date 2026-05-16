@@ -1,0 +1,33 @@
+{
+  "title": "Senior Publicist/Photo Editor",
+  "company": "The Walt Disney Studios",
+  "apply_url": "https://www.disneycareers.com/job/-/-/391/95094211936?source=LINKEDIN_FEED&codes=LINKEDIN_FEED",
+  "location": "Burbank, CA",
+  "match": {
+    "match_score": 20,
+    "recommendation": "skip",
+    "required_met": [
+      "Proficiency in Adobe Creative Cloud (Photoshop, Lightroom, etc.) not explicitly listed but may be inferred from technical skills",
+      "Collaborative and adaptable work style demonstrated through team-based projects and customer service roles"
+    ],
+    "required_missing": [
+      "5+ years of photo editing experience in film, entertainment, media, or related creative industry",
+      "Deep understanding of publicity, marketing, and talent-driven photography workflows",
+      "Experience managing studio photography on social media and digital platforms",
+      "Editorial judgment for curating images for press, digital, and social impact",
+      "Relationships with social/emerging photographers and familiarity with digital/social-native visual storytelling",
+      "Experience with Getty platform or similar image distribution systems",
+      "Knowledge of IATSE Local 600 Publicist Guild workflows and collective bargaining agreements"
+    ],
+    "preferred_met": [],
+    "dealbreakers": [
+      "Role requires specialized experience in photo editing, digital/social media photography, and entertainment publicity, which the candidate lacks",
+      "No demonstrated experience in film, entertainment, or creative media industries",
+      "On-site requirement in Burbank, CA (candidate is based in Sweden with no indication of relocation willingness)"
+    ],
+    "logistics_ok": false,
+    "logistics_notes": "Candidate is based in Sweden; role requires on-site presence in Burbank, CA with no remote option.",
+    "cultural_fit_summary": "Candidate demonstrates strong collaboration, problem-solving, and interdisciplinary skills, but these are not aligned with the creative, editorial, and industry-specific demands of the role.",
+    "reasoning": "The candidate's background in Python development, technical support, and academic coursework in computer science does not align with the core requirements of a Senior Publicist/Photo Editor role. The role demands specialized experience in photo editing, digital/social media strategy, and entertainment publicity, none of which are evident in the candidate's CV. Additionally, the on-site requirement in Burbank, CA is a dealbreaker given the candidate's location."
+  }
+}

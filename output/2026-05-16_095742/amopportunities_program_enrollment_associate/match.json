@@ -1,0 +1,28 @@
+{
+  "title": "Program Enrollment Associate",
+  "company": "AMOpportunities",
+  "apply_url": "https://ats.rippling.com/amopportunities/jobs/951f0cc7-a725-4390-b0af-bd98d2249f0a?jobSite=LinkedIn",
+  "location": "United States",
+  "match": {
+    "match_score": 70,
+    "recommendation": "review",
+    "required_met": [
+      "Strong written and verbal communication skills with a professional and empathetic tone",
+      "Exceptional attention to detail and organizational skills",
+      "Proficiency with Microsoft Office Suite (Word, Excel, Outlook) and comfort with digital document management tools",
+      "Ability to work both independently and collaboratively in a fast-paced, remote environment"
+    ],
+    "required_missing": [
+      "Bachelor's degree in healthcare administration, business, communications, or related field \u2014 or equivalent work experience"
+    ],
+    "preferred_met": [
+      "Prior experience in customer success (Dell technical support awards)",
+      "Experience coordinating with multiple stakeholders (Caritas Norge, Dell, Lexicon Group)"
+    ],
+    "dealbreakers": [],
+    "logistics_ok": false,
+    "logistics_notes": "Candidate is not a resident of any of the approved states (Alabama, Florida, Illinois, Indiana, Kansas, Michigan, New York, Ohio, or Texas).",
+    "cultural_fit_summary": "Candidate demonstrates strong interpersonal skills, empathy, and cross-cultural communication experience, aligning well with AMO's mission-driven and inclusive culture. Their background in technical support and advisory roles suggests adaptability and a student-focused mindset.",
+    "reasoning": "The candidate meets most required soft skills and preferred qualifications, particularly in communication, organization, and stakeholder coordination. However, the lack of a bachelor's degree in a directly related field or clear equivalent experience in healthcare administration/student services creates a gap. The logistics mismatch (residency requirement) is a significant but addressable hurdle if the candidate is willing to relocate."
+  }
+}

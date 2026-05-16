@@ -1,0 +1,86 @@
+{
+  "name": "Earmyas Measho Gebre",
+  "headline": "Python Developer | Technical Support | STEM",
+  "email": "earmyas@yahoo.com",
+  "phone": "+46 073 570 1870",
+  "linkedin": "https://linkedin.com/in/earmyas-measho-gebre-ab1549264",
+  "github": "https://github.com/Earmyas-Measho",
+  "citizenship": "EU",
+  "work_eligibility": {
+    "eu_citizen": true,
+    "germany_eligible": true,
+    "notes": "EU citizen — eligible to work in Germany/EU"
+  },
+  "location_preferences": {
+    "country": "Germany",
+    "cities": ["Frankfurt am Main", "Hanau", "Frankfurt", "Offenbach", "Main-Kinzig", "Wiesbaden", "Darmstadt"],
+    "region": "Hesse",
+    "remote_ok": true,
+    "hybrid_ok": true,
+    "relocate_within_germany": true
+  },
+  "seniority": "junior_to_mid",
+  "education_level": "bachelor_equivalent_ects",
+  "ects_completed": 182.5,
+  "ects_in_progress": 16.5,
+  "target_seniority": ["Internship", "Entry level", "Associate"],
+  "languages": ["English", "Norwegian", "Amharic", "Tigrinya", "Hindi (basic)"],
+  "matching_strategy": "Parse job posting requirements (Qualifications, Requirements, Must have, Nice to have, Responsibilities). Ignore job title. Map each requirement to candidate qualifications with evidence. Score % of must-haves met.",
+  "dealbreakers": [
+    "Requires active US security clearance",
+    "Requires medical/clinical license not held",
+    "Requires licensed engineer (Ing.) without equivalent",
+    "Mandates 5+ years senior experience clearly unmet",
+    "On-site only outside Germany/EU without relocation"
+  ],
+  "search_keyword_clusters": {
+    "software_development": [
+      "Python Developer", "Software Developer", "Software Engineer", "Backend Developer",
+      "Full Stack Developer", "Web Developer", "Junior Developer", "Associate Developer",
+      "Programmer", "Django Developer", "API Developer", "Application Developer",
+      "Werkstudent Software", "Praktikant Softwareentwicklung"
+    ],
+    "it_support": [
+      "IT Support", "Technical Support", "Helpdesk", "Service Desk", "Desktop Support",
+      "IT Specialist", "Support Engineer", "Technical Support Engineer", "IT Technician",
+      "User Support", "L1 Support", "L2 Support", "Production Support",
+      "Fachinformatiker Systemintegration", "IT-Systemelektroniker"
+    ],
+    "customer_success": [
+      "Customer Success", "Client Success", "Technical Customer Success",
+      "Customer Support Specialist", "Application Support", "Product Support",
+      "SaaS Support", "Customer Experience Specialist"
+    ],
+    "qa_testing": [
+      "QA Engineer", "Software Tester", "Test Analyst", "Quality Assurance",
+      "QA Tester", "Manual Tester", "Test Engineer", "Software Test Engineer"
+    ],
+    "data_analytics": [
+      "Data Analyst", "Junior Data Analyst", "Business Analyst IT",
+      "Reporting Analyst", "BI Analyst", "Analytics Associate", "Data Assistant"
+    ],
+    "cloud_infra": [
+      "Cloud Support", "DevOps Junior", "Junior DevOps", "System Administrator",
+      "IT Administrator", "Junior Sysadmin", "Infrastructure Support", "Platform Support"
+    ],
+    "integration_delivery": [
+      "Implementation Specialist", "Onboarding Specialist", "Integration Engineer Junior",
+      "Professional Services Associate", "Technical Consultant Junior", "Solutions Consultant Junior",
+      "Delivery Analyst"
+    ],
+    "documentation_training": [
+      "Technical Writer", "Documentation Specialist", "Knowledge Base",
+      "IT Trainer", "Training Specialist", "EdTech"
+    ],
+    "stem_sustainability": [
+      "ESG Analyst", "Sustainability Analyst", "Climate Analyst", "Energy Analyst",
+      "Environmental Data", "Renewable Energy Analyst", "Research Assistant",
+      "Technical Project Coordinator", "Project Coordinator STEM"
+    ],
+    "multilingual_advisory": [
+      "Multilingual Support", "Immigration Assistant", "Integration Consultant",
+      "Documentation Coordinator", "Program Coordinator NGO"
+    ]
+  },
+  "all_search_keywords": []
+}

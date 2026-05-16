@@ -1,0 +1,29 @@
+{
+  "title": "Senior Publicist/Photo Editor",
+  "company": "The Walt Disney Studios",
+  "apply_url": "https://www.disneycareers.com/job/-/-/391/95094211936?source=LINKEDIN_FEED&codes=LINKEDIN_FEED",
+  "location": "Burbank, CA",
+  "match": {
+    "match_score": 20,
+    "recommendation": "skip",
+    "required_met": [],
+    "required_missing": [
+      "5+ years of photo editing experience in film, entertainment, or related creative industry",
+      "Advanced proficiency in Adobe Creative Cloud (Photoshop, Lightroom, etc.)",
+      "Strong editorial eye for curating images for press, digital, and social impact",
+      "Deep understanding of publicity, marketing, and talent-driven photography workflows",
+      "Experience managing photography for social media platforms (Instagram, TikTok, X, etc.)",
+      "Experience with Getty platform or similar image distribution systems",
+      "Experience overseeing publicity shoots, unit photography, premieres, or special events"
+    ],
+    "preferred_met": [],
+    "dealbreakers": [
+      "No relevant experience in photo editing, digital media, or entertainment industry",
+      "Role requires IATSE Local 600 Publicist Guild membership (not mentioned in candidate's CV)"
+    ],
+    "logistics_ok": false,
+    "logistics_notes": "Role is on-site in Burbank, CA, and candidate is based in Sweden. No indication of work authorization for the U.S. or relocation plans.",
+    "cultural_fit_summary": "Candidate demonstrates strong problem-solving, collaboration, and interdisciplinary skills, but these are not aligned with the creative and industry-specific demands of the role.",
+    "reasoning": "The candidate's background is heavily focused on Python development, software engineering, and technical support, with no demonstrated experience in photo editing, digital media, or the entertainment industry. The role requires specialized skills in photography, social media strategy, and publicity workflows, which are entirely absent from the candidate's CV. Additionally, the role is on-site in the U.S. with no indication of the candidate's eligibility or willingness to relocate."
+  }
+}

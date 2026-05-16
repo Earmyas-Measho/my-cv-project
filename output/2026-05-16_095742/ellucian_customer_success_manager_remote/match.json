@@ -1,0 +1,36 @@
+{
+  "title": "Customer Success Manager | Remote",
+  "company": "Ellucian",
+  "apply_url": "https://careers.ellucian.com/jobs/7506?lang=en-us&iis=Job+Board&iisn=Linkedin",
+  "location": "United States",
+  "match": {
+    "match_score": 70,
+    "recommendation": "review",
+    "required_met": [
+      "2+ years of experience in technology (SaaS environment via Django/RESTful APIs, Lexicon training, and Dell technical support)",
+      "Strong written and verbal communication skills (multilingual, awards for customer satisfaction, teaching/translation experience)",
+      "Analytical and detail-oriented (mathematics background, database/SQL expertise, machine learning coursework)",
+      "Proven ability to provide expert advice (Dell technical support, customer service awards)",
+      "Self-starter and team player (agile project course, Caritas Norge coordination)",
+      "High computer literacy and ability to learn new software (Python/Django, Java, Flutter, CRM readiness inferred)",
+      "Proactive and dependable (awards, consistent career progression)",
+      "Problem solver with intellectual curiosity (machine learning, software design, technical troubleshooting)"
+    ],
+    "required_missing": [
+      "2+ years of project management experience in a Customer Success role (current experience is technical training, not CSM-specific)",
+      "Direct experience with CRM software (Salesforce/Gainsight not explicitly mentioned)",
+      "Explicit higher education industry knowledge (though transferable from Dell/tech support)"
+    ],
+    "preferred_met": [
+      "Public speaking/webinar leadership (teacher assistant, Dell training implied)",
+      "Multi-tasking and priority adjustment (Dell technical support, refugee coordination)",
+      "Leadership qualities (awards, team-based project course)",
+      "Enthusiastic/positive mindset (awards, community involvement)"
+    ],
+    "dealbreakers": [],
+    "logistics_ok": false,
+    "logistics_notes": "Role requires US work authorization; candidate is based in Sweden with no mention of eligibility.",
+    "cultural_fit_summary": "Strong alignment with Ellucian\u2019s collaborative, customer-centric culture. Demonstrated empathy (refugee support), adaptability (multilingual, cross-cultural roles), and passion for education (teaching, lifelong learning). Technical curiosity and problem-solving mindset fit the innovative, data-driven environment.",
+    "reasoning": "Candidate meets core technical and soft skill requirements but lacks direct Customer Success Manager experience. Transferable skills from technical support, teaching, and project-based training partially offset this gap. Logistics (US work authorization) are the primary barrier, though cultural fit and analytical strengths are compelling for review."
+  }
+}

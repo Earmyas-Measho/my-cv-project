@@ -1,0 +1,32 @@
+{
+  "title": "Program Enrollment Associate",
+  "company": "AMOpportunities",
+  "apply_url": "https://ats.rippling.com/amopportunities/jobs/951f0cc7-a725-4390-b0af-bd98d2249f0a?jobSite=LinkedIn",
+  "location": "United States",
+  "match": {
+    "match_score": 68,
+    "recommendation": "review",
+    "required_met": [
+      "Strong written and verbal communication skills with a professional and empathetic tone",
+      "Exceptional attention to detail and organizational skills; able to manage multiple tasks and deadlines simultaneously",
+      "Proficiency with Microsoft Office Suite (Word, Excel, Outlook) and comfort with digital document management tools",
+      "Ability to work both independently and collaboratively in a fast-paced, remote or hybrid environment"
+    ],
+    "required_missing": [
+      "Bachelor's degree in healthcare administration, business, communications, or related field \u2014 or equivalent work experience (degree in progress, not yet completed)"
+    ],
+    "preferred_met": [
+      "Prior experience in customer success (Dell technical support, Caritas Norge advisory role)",
+      "Experience coordinating with multiple stakeholders across administrative workflows (Dell, Caritas Norge, Lexicon Group)"
+    ],
+    "preferred_missing": [
+      "Familiarity with CRM platforms or enrollment management systems",
+      "Exposure to medical education, clinical training, or international student support"
+    ],
+    "dealbreakers": [],
+    "logistics_ok": false,
+    "logistics_notes": "Candidate is based in Sweden, but role requires residency in one of the following U.S. states: Alabama, Florida, Illinois, Indiana, Kansas, Michigan, New York, Ohio, or Texas.",
+    "cultural_fit_summary": "Candidate demonstrates strong communication skills, empathy, and organizational abilities through roles in technical support, refugee assistance, and education. Their interdisciplinary background and awards for customer satisfaction suggest alignment with AMO's supportive and mission-driven culture.",
+    "reasoning": "The candidate meets most required soft skills and preferred experience in customer support and stakeholder coordination. However, the role requires U.S. residency in specific states, which the candidate does not meet. Additionally, the candidate's degree is in progress, though their technical and administrative experience partially offsets this gap."
+  }
+}

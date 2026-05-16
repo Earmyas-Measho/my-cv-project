@@ -1,0 +1,622 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Earmyas Measho Gebre - Professional CV</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Calibri, Arial, sans-serif;
+            line-height: 1.45;
+            color: #222;
+            background-color: #f0f2f5;
+            margin: 0;
+            padding: 20px 0;
+        }
+        .cv-container {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: white;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.12);
+            padding: 30px;
+            border: 1px solid #d1d5db;
+        }
+        .cv-header {
+            text-align: center;
+            margin-bottom: 25px;
+            padding-bottom: 15px;
+            border-bottom: 2px solid #1a3d5a;
+            background: linear-gradient(to bottom, #ffffff, #f8fafc);
+        }
+        .cv-label {
+            background-color: #1a3d5a;
+            color: white;
+            display: inline-block;
+            padding: 4px 12px;
+            font-weight: bold;
+            letter-spacing: 1px;
+            margin-bottom: 10px;
+            font-size: 10pt;
+            border-radius: 3px;
+        }
+        h1 {
+            color: #1a3d5a;
+            margin: 0 0 8px 0;
+            font-size: 24pt;
+            font-weight: bold;
+        }
+        .contact {
+            font-size: 10.5pt;
+            color: #555;
+            margin: 5px 0;
+        }
+        .verification-section {
+            background-color: #eff6ff;
+            border: 1px solid #bfdbfe;
+            border-radius: 6px;
+            padding: 12px 15px;
+            margin: 15px 0;
+            text-align: center;
+        }
+        .verification-section h3 {
+            margin: 0 0 8px 0;
+            color: #1a3d5a;
+            font-size: 10.5pt;
+            font-weight: bold;
+        }
+        .verification-links {
+            font-size: 9.5pt;
+            color: #1a3d5a;
+        }
+        .verification-links a {
+            color: #1a3d5a;
+            text-decoration: none;
+            margin: 0 5px;
+            display: inline-block;
+        }
+        .verification-links a:hover {
+            text-decoration: underline;
+        }
+        .section {
+            margin-bottom: 18px;
+            border: 1px solid #d1d5db;
+            border-radius: 6px;
+            overflow: hidden;
+            background-color: #ffffff;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+        }
+        .section:nth-child(even) {
+            background-color: #f9fafb;
+        }
+        .section-title {
+            background: linear-gradient(to right, #1a3d5a, #2c5282);
+            color: white;
+            padding: 10px 15px;
+            font-size: 11.5pt;
+            font-weight: bold;
+            letter-spacing: 0.5px;
+        }
+        .section-content {
+            padding: 15px;
+            background-color: transparent;
+        }
+        .subsection {
+            background-color: #f1f5f9;
+            border-radius: 6px;
+            padding: 12px 15px;
+            margin-top: 12px;
+            border: 1px solid #e2e8f0;
+        }
+        .subsection-title {
+            background-color: #e2e8f0;
+            color: #1a3d5a;
+            padding: 6px 10px;
+            font-weight: bold;
+            font-size: 10.5pt;
+            border-radius: 4px;
+            border-left: 4px solid #1a3d5a;
+            margin-bottom: 10px;
+        }
+        .entry-card {
+            background: white;
+            padding: 10px 12px;
+            border-radius: 5px;
+            border-left: 3px solid #cbd5e1;
+            box-shadow: 0 1px 2px rgba(0,0,0,0.04);
+            margin-bottom: 8px;
+        }
+        .entry-card:last-child {
+            margin-bottom: 0;
+        }
+        .role {
+            font-weight: bold;
+            font-size: 10.8pt;
+        }
+        .org {
+            font-style: italic;
+            color: #444;
+            font-size: 9.8pt;
+        }
+        .date {
+            float: right;
+            font-size: 9.8pt;
+            color: #555;
+            white-space: nowrap;
+            min-width: 180px;
+            text-align: right;
+        }
+        ul {
+            padding-left: 18px;
+            margin: 6px 0;
+        }
+        li {
+            margin-bottom: 4px;
+            font-size: 9.8pt;
+        }
+        .highlight {
+            background: linear-gradient(to right, #eff6ff, #e0f2fe);
+            padding: 10px 12px;
+            border-left: 3px solid #1a3d5a;
+            font-size: 9.8pt;
+            margin: 10px 0;
+            border-radius: 4px;
+        }
+        .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 12px;
+        }
+        .skill-card {
+            background: white;
+            padding: 10px;
+            border-radius: 5px;
+            border-left: 3px solid #1a3d5a;
+            box-shadow: 0 1px 2px rgba(0,0,0,0.04);
+        }
+        .skill-card h3 {
+            margin: 0 0 6px;
+            color: #1a3d5a;
+            font-size: 10pt;
+            font-weight: bold;
+        }
+        .skill-list {
+            padding-left: 20px;
+            margin: 5px 0;
+        }
+        .skill-list li {
+            margin-bottom: 3px;
+        }
+        .course-entry {
+            display: flex;
+            margin-bottom: 6px;
+        }
+        .course-entry:last-child {
+            margin-bottom: 0;
+        }
+        .course-description {
+            flex: 1;
+            padding-right: 10px;
+        }
+        .course-dates {
+            white-space: nowrap;
+            width: 180px;
+            text-align: right;
+            color: #555;
+            font-size: 9.5pt;
+            font-weight: 500;
+        }
+        .cv-footer {
+            text-align: center;
+            margin-top: 25px;
+            padding-top: 15px;
+            border-top: 1px solid #d1d5db;
+            font-size: 9pt;
+            color: #6b7280;
+            background-color: #f9fafb;
+            border-radius: 4px;
+        }
+        @media print {
+            body { 
+                background-color: white; 
+                padding: 0; 
+                font-size: 10pt;
+            }
+            .cv-container { 
+                box-shadow: none; 
+                padding: 20px; 
+                border: 1px solid #d1d5db;
+                max-width: none;
+                margin: 0;
+            }
+            .section {
+                page-break-inside: avoid;
+                margin-bottom: 15px;
+            }
+            .subsection {
+                page-break-inside: avoid;
+            }
+            .entry-card {
+                page-break-inside: avoid;
+            }
+            .course-entry {
+                page-break-inside: avoid;
+            }
+            .date {
+                float: none;
+                text-align: right;
+                margin-top: -20px;
+                margin-bottom: 5px;
+            }
+        }
+        @page {
+            size: A4;
+            margin: 1cm;
+        }
+    </style>
+</head>
+<body>
+<div class="cv-container">
+    <div class="cv-header">
+        <div class="cv-label">CURRICULUM VITAE</div>
+        <h1>Earmyas Measho Gebre</h1>
+        <p class="contact">Python Developer | earmyas@yahoo.com | +46 073 570 1870</p>
+        
+        <div class="verification-section">
+            <h3>VERIFICATION LINKS</h3>
+            <div class="verification-links">
+                <a href="https://linkedin.com/in/earmyas-measho-gebre-ab1549264" target="_blank">LinkedIn Profile</a> • 
+                <a href="https://github.com/Earmyas-Measho" target="_blank">GitHub Portfolio</a> • 
+                <a href="https://true.lexicon.se/diploma-lexicon-earmyas-gebre-243260-3905/?zone=truecrt&modal=1&lang=en" target="_blank">Lexicon Diploma</a> • 
+                <a href="https://app.vitnemalsportalen.no/vp/showResultFromLink/en/BE08AAE50BC249E1835A35FE34A7F7BB" target="_blank">Norwegian Academic Verification</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="section-title">PROFESSIONAL SUMMARY</div>
+        <div class="section-content">
+            <div class="subsection">
+                <p>Python developer with expertise in Django framework, RESTful API development, and database management, backed by a verified Nordic academic record of 199.0 ECTS (182.5 completed, 16.5 in progress). Proven ability to design and implement robust web applications with secure backend services and database solutions.</p>
+                
+                <div class="highlight">
+                    🔹 <strong>Technical Expertise:</strong> 85 ECTS across 11 comprehensive computer science courses covering software architecture, object-oriented programming, database technology, and computer security.<br>
+                    🔹 <strong>Mathematical Foundation:</strong> 51 ECTS in mathematics including multivariable calculus, linear algebra, discrete mathematics, and engineering mathematics.<br>
+                    🔹 <strong>Practical Experience:</strong> Award-winning technical support background at Dell combined with current Python development training at Lexicon Group.
+                </div>
+                
+                <p>My interdisciplinary education across Computer Science, Mathematics, Engineering, and Environmental Science has provided me with a unique perspective on problem-solving, systems integration, and technical communication across diverse domains.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="section-title">TECHNICAL SKILLS</div>
+        <div class="section-content">
+            <div class="subsection">
+                <div class="skills-grid">
+                    <div class="skill-card">
+                        <h3>Software Architecture & Cybersecurity</h3>
+                        <ul class="skill-list">
+                            <li>Object-Oriented Programming (Java, Python)</li>
+                            <li>Database Technology & Management</li>
+                            <li>Computer Security</li>
+                            <li>Software Design & Engineering</li>
+                            <li>Flutter Development</li>
+                        </ul>
+                    </div>
+                    <div class="skill-card">
+                        <h3>Software Engineering</h3>
+                        <ul class="skill-list">
+                            <li>Python (Django framework)</li>
+                            <li>Java (Initial Programming)</li>
+                            <li>SQL</li>
+                            <li>RESTful API Development</li>
+                            <li>Machine Learning Applications</li>
+                        </ul>
+                    </div>
+                    <div class="skill-card">
+                        <h3>Data Logic & Algorithmic Engineering</h3>
+                        <ul class="skill-list">
+                            <li>Multivariable Calculus</li>
+                            <li>Linear Algebra for Engineers</li>
+                            <li>Discrete Mathematics</li>
+                            <li>Basic Mathematics for Computer Scientists</li>
+                        </ul>
+                    </div>
+                    <div class="skill-card">
+                        <h3>Infrastructure & Applied Physics</h3>
+                        <ul class="skill-list">
+                            <li>Environmental Physics</li>
+                            <li>Energy Systems</li>
+                            <li>Pollution Studies</li>
+                            <li>Systems Modeling for Power and Cooling</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="section-title">PROFESSIONAL EXPERIENCE</div>
+        <div class="section-content">
+            <div class="subsection">
+                <div class="subsection-title">Current & Recent Roles</div>
+                <div class="entry-card">
+                    <div class="role">Python Developer (Training Project)</div>
+                    <div class="org">Lexicon Group — Gothenburg, Sweden</div>
+                    <div class="date">Oct 2024 – Jan 2026</div>
+                    <ul>
+                        <li>Designed and developed web applications using Django, integrating robust backend services with secure database solutions</li>
+                        <li>Built and optimized RESTful APIs for seamless client-server communication</li>
+                        <li>Applied machine learning concepts for data analysis and predictive solutions</li>
+                    </ul>
+                </div>
+                <div class="entry-card">
+                    <div class="role">Customer Service Technical Support</div>
+                    <div class="org">Dell (via Concentrix) — Amsterdam, Netherlands</div>
+                    <div class="date">Jan 2019 – Sep 2019</div>
+                    <ul>
+                        <li>Provided technical support for Dell hardware/software, including diagnostics and repair coordination</li>
+                        <li>Recognized with "Superstars" and "Customer Satisfaction" awards for exceptional performance</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="subsection">
+                <div class="subsection-title">Additional Professional Experience</div>
+                <div class="entry-card">
+                    <div class="role">General Advisor & Translator</div>
+                    <div class="org">Caritas Norge — Oslo, Norway</div>
+                    <div class="date">Nov 2019 – Jul 2020</div>
+                    <ul>
+                        <li>Assisted refugees with official documentation, translation, and integration support</li>
+                        <li>Coordinated multilingual advisory services across English, Norwegian, Amharic, Tigrinya</li>
+                    </ul>
+                </div>
+                <div class="entry-card">
+                    <div class="role">Teacher Assistant</div>
+                    <div class="org">Sødorp Skole — Vinstra, Norway</div>
+                    <div class="date">Nov 2013 – Jul 2014</div>
+                    <ul>
+                        <li>Supported classroom instruction in mathematics and science for primary students</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="section-title">EDUCATION & ACADEMIC RECORD</div>
+        <div class="section-content">
+            <div class="subsection">
+                <div class="subsection-title">Computer Science Courses (85 ECTS Completed)</div>
+                <div class="entry-card">
+                    <div class="org">Linnaeus University</div>
+                    <div class="course-entry">
+                        <div class="course-description"><strong>Introduction to App Development with Flutter:</strong> Cross-platform mobile application development using Dart and Flutter framework</div>
+                        <div class="course-dates">Jun 2023 – Aug 2023</div>
+                    </div>
+                    <div class="course-entry">
+                        <div class="course-description"><strong>Project Course in Computer Science:</strong> Team-based software development applying agile methodologies and project management</div>
+                        <div class="course-dates">Mar 2023 – Jun 2023</div>
+                    </div>
+                    <div class="course-entry">
+                        <div class="course-description"><strong>Object-Oriented Programming:</strong> Comprehensive study of object-oriented principles, design patterns, and Java implementation</div>
+                        <div class="course-dates">Jan 2023 – Mar 2023</div>
+                    </div>
+                    <div class="course-entry">
+                        <div class="course-description"><strong>Computer Security:</strong> Security protocols, encryption techniques, and secure coding practices</div>
+                        <div class="course-dates">Nov 2022 – Jan 2023</div>
+                    </div>
+                    <div class="course-entry">
+                        <div class="course-description"><strong>Object Oriented Analysis and Design using UML:</strong> UML modeling, software architecture, and design principles</div>
+                        <div class="course-dates">Aug 2022 – Nov 2022</div>
+                    </div>
+                    <div class="course-entry">
+                        <div class="course-description"><strong>Current Topics within Computer Science:</strong> Emerging technologies and industry trends, including cloud computing and modern development practices</div>
+                        <div class="course-dates">Aug 2022 – Jan 2023</div>
+                    </div>
+                    <div class="course-entry">
+                        <div class="course-description"><strong>Database Technology:</strong> Relational database design, SQL query optimization, and data modeling techniques</div>
+                        <div class="course-dates">Jan 2022 – Mar 2022</div>
+                    </div>
+                    <div class="course-entry">
+                        <div class="course-description"><strong>Technical Information and Communication:</strong> Technical writing, professional communication, and documentation skills</div>
+                        <div class="course-dates">Nov 2020 – Jan 2021</div>
+                    </div>
+                    <div class="course-entry">
+                        <div class="course-description"><strong>Introduction to Programming:</strong> Fundamentals of programming concepts, algorithms, and problem-solving approaches</div>
+                        <div class="course-dates">Aug 2020 – Nov 2020</div>
+                    </div>
+                </div>
+                <div class="entry-card">
+                    <div class="org">Uppsala University</div>
+                    <div class="course-entry">
+                        <div class="course-description"><strong>Information Technology: Possibilities and Challenges:</strong> Exploration of IT's societal impact, ethical considerations, and future technological developments</div>
+                        <div class="course-dates">Jun 2022 – Aug 2022</div>
+                    </div>
+                </div>
+                <div class="entry-card">
+                    <div class="org">Luleå University of Technology</div>
+                    <div class="course-entry">
+                        <div class="course-description"><strong>Initial Programming in Java:</strong> Introduction to Java programming language, syntax, and fundamental programming concepts</div>
+                        <div class="course-dates">Aug 2022 – Jan 2023</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="subsection">
+                <div class="subsection-title">Mathematics Courses (51 ECTS Total)</div>
+                <div class="entry-card">
+                    <div class="org">Linnaeus University (41 ECTS)</div>
+                    <div class="course-entry">
+                        <div class="course-description"><strong>Linear Algebra for Engineers:</strong> Matrix operations, vector spaces, eigenvalues, and applications to engineering problems</div>
+                        <div class="course-dates">Nov 2021 – Jan 2022</div>
+                    </div>
+                    <div class="course-entry">
+                        <div class="course-description"><strong>Basic Mathematics for Computer Scientists:</strong> Calculus fundamentals, limits, derivatives, integrals, and their applications to computer science</div>
+                        <div class="course-dates">Aug 2020 – Nov 2020</div>
+                    </div>
+                    <div class="course-entry">
+                        <div class="course-description"><strong>Discrete Mathematics:</strong> Logic, set theory, combinatorics, graph theory, and algorithm analysis</div>
+                        <div class="course-dates">Mar 2021 – Jun 2021</div>
+                    </div>
+                    <div class="course-entry">
+                        <div class="course-description"><strong>Calculus I:</strong> Fundamental concepts of calculus including limits, derivatives, and integrals</div>
+                        <div class="course-dates">Nov 2021 – Jan 2022</div>
+                    </div>
+                    <div class="course-entry">
+                        <div class="course-description"><strong>Linear Algebra:</strong> Vector spaces, matrices, determinants, and their applications</div>
+                        <div class="course-dates">Aug 2021 – Nov 2021</div>
+                    </div>
+                    <div class="course-entry">
+                        <div class="course-description"><strong>Multivariable Calculus and Vector Calculus:</strong> Functions of several variables, partial derivatives, multiple integrals, vector calculus</div>
+                        <div class="course-dates">Aug 2021 – Nov 2021</div>
+                    </div>
+                </div>
+                <div class="entry-card">
+                    <div class="org">Østfold University College (10 ECTS)</div>
+                    <div class="course-entry">
+                        <div class="course-description"><strong>Mathematics 1:</strong> Advanced calculus, differential equations, and mathematical modeling for engineering applications</div>
+                        <div class="course-dates">Spring 2018</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="subsection">
+                <div class="subsection-title">Engineering & Environmental Science Courses (60 ECTS Completed)</div>
+                <div class="entry-card">
+                    <div class="org">University of South-Eastern Norway (30 ECTS)</div>
+                    <div class="course-entry">
+                        <div class="course-description"><strong>Climate, Energy and Environment:</strong> Climate systems, renewable energy technologies, and environmental impact assessment</div>
+                        <div class="course-dates">Fall 2016</div>
+                    </div>
+                    <div class="course-entry">
+                        <div class="course-description"><strong>Biology and Environment:</strong> Ecological systems, biodiversity, and environmental impact of human activities</div>
+                        <div class="course-dates">Fall 2016</div>
+                    </div>
+                    <div class="course-entry">
+                        <div class="course-description"><strong>Theory of Science and Nature View:</strong> Scientific methodology and the relationship between science and society</div>
+                        <div class="course-dates">Spring 2017</div>
+                    </div>
+                </div>
+                <div class="entry-card">
+                    <div class="org">Østfold University College (30 ECTS)</div>
+                    <div class="course-entry">
+                        <div class="course-description"><strong>Technical Planning:</strong> Project planning, resource allocation, and time management for technical projects</div>
+                        <div class="course-dates">Spring 2018</div>
+                    </div>
+                    <div class="course-entry">
+                        <div class="course-description"><strong>The Engineer Role and Project Work:</strong> Professional skills for engineering practice and team collaboration</div>
+                        <div class="course-dates">Fall 2017</div>
+                    </div>
+                    <div class="course-entry">
+                        <div class="course-description"><strong>Mechanics:</strong> Physics principles relevant to engineering applications</div>
+                        <div class="course-dates">Autumn 2018</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="subsection">
+                <div class="subsection-title">In Progress Courses (16.5 ECTS)</div>
+                <div class="entry-card">
+                    <div class="org">Linnaeus University</div>
+                    <div class="course-entry">
+                        <div class="course-description"><strong>Introduction to Machine Learning:</strong> Data analysis, predictive modeling, and AI applications</div>
+                        <div class="course-dates">Mar 2026 – Jun 2026</div>
+                    </div>
+                    <div class="course-entry">
+                        <div class="course-description"><strong>Software Design:</strong> Advanced architectural patterns and design principles</div>
+                        <div class="course-dates">Jan 2023 – Mar 2023</div>
+                    </div>
+                    <div class="course-entry">
+                        <div class="course-description"><strong>Discrete Mathematics:</strong> Advanced topics in combinatorics and graph theory</div>
+                        <div class="course-dates">Mar 2021 – Jun 2021</div>
+                    </div>
+                </div>
+                <div class="entry-card">
+                    <div class="org">Østfold University College</div>
+                    <div class="course-entry">
+                        <div class="course-description"><strong>Mechanics:</strong> Physics principles relevant to engineering applications</div>
+                        <div class="course-dates">Autumn 2018</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="subsection">
+                <div class="subsection-title">Pre-Engineering Mathematics & Physics (105 Credits)</div>
+                <div class="entry-card">
+                    <div class="org">University of South-Eastern Norway & Østfold University College</div>
+                    <ul>
+                        <li><strong>Physics & Mathematics Pre-Engineering:</strong> Comprehensive study of classical mechanics, thermodynamics, electromagnetism, advanced calculus, and trigonometry</li>
+                        <li><strong>Technical Mathematics & Physics:</strong> Practical applications for engineering and technical professions (Tress/Y-vei pathways)</li>
+                        <li><strong>Total pre-engineering:</strong> 105 Credits (foundational, not counted toward degree requirements)</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="section-title">ADDITIONAL EXPERIENCE</div>
+        <div class="section-content">
+            <div class="subsection">
+                <div class="entry-card">
+                    <div class="role">Front Desk Receptionist</div>
+                    <div class="org">Kvam Hotel — Kvam, Norway</div>
+                    <div class="date">Nov 2015 – Dec 2015</div>
+                    <ul>
+                        <li>Assisted and translated for newly arriving refugees in Norway</li>
+                    </ul>
+                </div>
+                <div class="entry-card">
+                    <div class="role">Front Desk Receptionist</div>
+                    <div class="org">Rondablikk Høyfjellshotell — Vinstra, Norway</div>
+                    <div class="date">Jan 2015 – Feb 2015</div>
+                    <ul>
+                        <li>Supported new arrivals to Norway with translation services</li>
+                    </ul>
+                </div>
+                <div class="entry-card">
+                    <div class="role">Kitchen Work</div>
+                    <div class="org">Hvalsmoen Transittmottak — Hønefoss, Norway</div>
+                    <div class="date">Apr 2010 – May 2010</div>
+                    <ul>
+                        <li>Prepared meals for newly arriving refugees</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="section-title">AWARDS & ADDITIONAL INFORMATION</div>
+        <div class="section-content">
+            <div class="subsection">
+                <div class="subsection-title">Awards & Recognition</div>
+                <div class="entry-card">
+                    <ul>
+                        <li><strong>Superstars Award (Dell, Sep 2019)</strong> — Recognition for consistent high performance and dedication in enterprise technical support</li>
+                        <li><strong>Customer Satisfaction Award (Dell, Sep 2019)</strong> — Acknowledged for excellent service and positive customer feedback</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="subsection">
+                <div class="subsection-title">Additional Information</div>
+                <div class="entry-card">
+                    <ul>
+                        <li><strong>Languages:</strong> English (fluent), Norwegian (fluent), Amharic (fluent), Tigrinya (fluent), Hindi (basic)</li>
+                        <li><strong>Hobbies:</strong> Biking, hiking, acrobatics, aerobics, language learning, reading the Bible</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="cv-footer">
+        Curriculum Vitae | Earmyas Measho Gebre | Updated: May 5, 2026
+    </div>
+</div>
+</body>
+</html>

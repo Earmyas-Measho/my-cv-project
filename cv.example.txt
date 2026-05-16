@@ -1,0 +1,26 @@
+# Copy this file to cv.txt and replace with your real CV (plain text).
+# You can also use cv.pdf if you install: pip install -r requirements.txt
+
+YOUR FULL NAME
+City, State | email@example.com | phone | LinkedIn URL
+
+SUMMARY
+2-4 sentences about your background, strengths, and what roles you want.
+
+EXPERIENCE
+Job Title — Company — Dates
+- Achievement with numbers where possible
+- Tools and skills used
+
+EDUCATION
+Degree or coursework — School — Year
+(Note: list adjacent/flexible education honestly; the matcher maps transferable skills.)
+
+SKILLS
+List tools, languages, certifications, domains
+
+PREFERENCES (optional — helps matching)
+- Target roles:
+- Locations / remote:
+- Minimum salary:
+- Dealbreakers (e.g. no relocation, no on-call):
